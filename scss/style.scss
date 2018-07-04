@@ -21,14 +21,13 @@ body {
 
 .container {
     background: #363636;
-    padding: 5em 8em 6em;
+    padding: 5em 8em 12em;
     &--white {
         background: #fff;
 
     }
     .header {
         font-size: 3em;
-        line-height: 1.2em;
         text-align: center;
         color: #C1C1C1;
         margin: 5em auto 1em;
@@ -42,7 +41,7 @@ body {
         &--light {
             font-weight: normal;
             color: #C1C1C1;
-            margin: 0 0 9rem;
+            margin: 0;
         }
         &--white {
             color: #fff;
@@ -55,14 +54,12 @@ body {
     background: #1A1A1A;
     color: #C1C1C1;
     padding: 0 0 0 4em;
-    top: 4em;
     left: 0;
     &-right {
         position: absolute;
         width: 6em;
         height: 3em;
         background: #1A1A1A;
-        top: 4em;
         right: 0;
     }
     .menu {
@@ -88,7 +85,6 @@ body {
 }
 
 .gallery {
-    position: relative;
     background: #B1B2B1;
     color: #fff;
     padding: 1em 2em 20em;
@@ -123,7 +119,6 @@ body {
 }
 
 .contactform {
-    width: 100%;
     padding: 0 10em;
     &__field {
         display: block;
