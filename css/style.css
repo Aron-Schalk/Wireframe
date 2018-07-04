@@ -22,26 +22,24 @@ body {
   padding: 5em 8em 6em; }
   .container--white {
     background: #fff; }
-
-.header {
-  font-size: 3em;
-  line-height: 1.2em;
-  text-align: center;
-  color: #C1C1C1;
-  margin: 5em auto 1em; }
-
-.sub-header {
-  font-size: 1.5em;
-  line-height: 3em;
-  text-align: center;
-  color: #000;
-  margin: 1em 0; }
-  .sub-header--light {
-    font-weight: normal;
+  .container .header {
+    font-size: 3em;
+    line-height: 1.2em;
+    text-align: center;
     color: #C1C1C1;
-    margin: 0 0 9rem; }
-  .sub-header--white {
-    color: #fff; }
+    margin: 5em auto 1em; }
+  .container .sub-header {
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    color: #000;
+    margin: 1em 0; }
+    .container .sub-header--light {
+      font-weight: normal;
+      color: #C1C1C1;
+      margin: 0 0 9rem; }
+    .container .sub-header--white {
+      color: #fff; }
 
 .navigation {
   position: absolute;
@@ -57,23 +55,21 @@ body {
     background: #1A1A1A;
     top: 4em;
     right: 0; }
-
-.menu {
-  display: flex; }
-  .menu__item--reset {
-    padding: 1em; }
+  .navigation .menu {
+    display: flex; }
+    .navigation .menu__item--reset {
+      padding: 1em; }
 
 .content-text {
   display: flex;
   margin: 0 0 5em; }
   .content-text__half {
     width: 50%; }
-
-.weird-text {
-  line-height: 3.2em;
-  word-spacing: 4em;
-  text-align: center;
-  padding: 5em; }
+  .content-text .weird-text {
+    line-height: 3.2em;
+    word-spacing: 4em;
+    text-align: center;
+    padding: 5em; }
 
 .gallery {
   position: relative;
@@ -101,9 +97,8 @@ body {
       position: absolute;
       bottom: 2em;
       left: 2em; }
-
-.long-item {
-  bottom: 3em; }
+    .gallery__item .long-item {
+      bottom: 3em; }
 
 .contactform {
   width: 100%;
@@ -122,12 +117,15 @@ body {
     .contactform__field:focus {
       outline: none; }
 
-.button {
-  float: right;
-  width: 17em;
-  height: 4em;
-  background: #363636;
-  border: none; }
+.container__button {
+  display: flex;
+  justify-content: flex-end; }
+  .container__button .button--grey {
+    width: 17em;
+    height: 4em;
+    background: #363636;
+    border: none;
+    outline: none; }
 
 .footer {
   height: 5em;

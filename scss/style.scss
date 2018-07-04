@@ -26,29 +26,27 @@ body {
         background: #fff;
 
     }
-}
-
-.header {
-    font-size: 3em;
-    line-height: 1.2em;
-    text-align: center;
-    color: #C1C1C1;
-    margin: 5em auto 1em;
-}
-
-.sub-header {
-    font-size: 1.5em;
-    line-height: 3em;
-    text-align: center;
-    color: #000;
-    margin: 1em 0;
-    &--light {
-        font-weight: normal;
+    .header {
+        font-size: 3em;
+        line-height: 1.2em;
+        text-align: center;
         color: #C1C1C1;
-        margin: 0 0 9rem;
+        margin: 5em auto 1em;
     }
-    &--white {
-        color: #fff;
+    .sub-header {
+        font-size: 1.5em;
+        line-height: 3em;
+        text-align: center;
+        color: #000;
+        margin: 1em 0;
+        &--light {
+            font-weight: normal;
+            color: #C1C1C1;
+            margin: 0 0 9rem;
+        }
+        &--white {
+            color: #fff;
+        }
     }
 }
 
@@ -67,12 +65,11 @@ body {
         top: 4em;
         right: 0;
     }
-}
-
-.menu {
-    display: flex;
-    &__item--reset {
-        padding: 1em;
+    .menu {
+        display: flex;
+        &__item--reset {
+            padding: 1em;
+        }
     }
 }
 
@@ -82,13 +79,12 @@ body {
     &__half {
         width: 50%;
     }
-}
-
-.weird-text {
-    line-height: 3.2em;
-    word-spacing: 4em;
-    text-align: center;
-    padding: 5em;
+    .weird-text {
+        line-height: 3.2em;
+        word-spacing: 4em;
+        text-align: center;
+        padding: 5em;
+    }
 }
 
 .gallery {
@@ -120,11 +116,10 @@ body {
             bottom: 2em;
             left: 2em;
         }
+        .long-item {
+            bottom: 3em;
+        }
     }
-}
-
-.long-item {
-    bottom: 3em;
 }
 
 .contactform {
@@ -148,12 +143,16 @@ body {
     }
 }
 
-.button {
-    float: right;
-    width: 17em;
-    height: 4em;
-    background: #363636;
-    border: none;
+.container__button {
+    display: flex;
+    justify-content: flex-end;
+    .button--grey {
+        width: 17em;
+        height: 4em;
+        background: #363636;
+        border: none;
+        outline: none;
+    }
 }
 
 .footer {
