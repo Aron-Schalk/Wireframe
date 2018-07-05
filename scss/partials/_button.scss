@@ -1,0 +1,12 @@
+.button__container {
+    display: flex;
+    justify-content: flex-end; 
+    .button--grey {
+        width: 17em;
+        height: 4em;
+        background: #363636;
+        border: none;
+        outline: none;
+    }
+}
+   
