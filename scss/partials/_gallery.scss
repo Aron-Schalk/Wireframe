@@ -1,0 +1,33 @@
+.gallery {
+    background: $light-grey;
+    color: $white;
+    padding: 1em 2em 20em;
+    margin: 0 0 8em;
+    &__list {
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: calc(100vw - 20em);
+    }
+    &__item {
+        position: relative;
+        width: 33.33%;
+        height: 15em;
+        font-size: 1.5em;
+        background: $dark-grey;
+        margin: 1em;
+        &:nth-child(2) {
+            height: 16em;
+        }
+        &-text {
+            position: absolute;
+            bottom: 2em;
+            left: 2em;
+        }
+        .long-item {
+            bottom: 3em;
+        }
+    }
+}
