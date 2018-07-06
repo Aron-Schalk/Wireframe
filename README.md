@@ -1,3 +1,4 @@
 # Wireframe assignment for Raymon
-This is the master branch of my first GitHub repo.
+This is the Gulp branch of my wireframe repo.
 
+I used Grunt in the sass branch.
