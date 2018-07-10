@@ -1,5 +1,6 @@
 .sass-cache
 node_modules
 Gruntfile.js
+gulpfile.js
 package-lock.json
 package.json
