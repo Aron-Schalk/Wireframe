@@ -1,3 +1,2 @@
 # Wireframe assignment for Raymon
-This is the master branch of my first GitHub repo.
-
+This is the responsive branch of my wireframe repo.
