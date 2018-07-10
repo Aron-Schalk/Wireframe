@@ -1,6 +1,7 @@
 .sass-cache
 node_modules
-Gruntfile.js
 gulpfile.js
+Gruntfile.js
 package-lock.json
 package.json
+.DS_Store
