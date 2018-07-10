@@ -1,2 +1,2 @@
 # Wireframe assignment for Raymon
-This is the responsive branch of my wireframe repo.
+This is the master branch of my wireframe repo.
