@@ -1,0 +1,53 @@
+.navigation {
+    position: absolute;
+    background: $darker-grey;
+    color: $light-grey;
+    padding: 0 0 0 4em;
+    left: 0;
+    &-menu {
+        display: flex;
+        &__item--reset {
+            padding: 1em;
+        }
+    }
+    &-right {
+        position: absolute;
+        width: 6em;
+        height: 3em;
+        background: $darker-grey;
+        right: 0;
+    }
+}
+
+@media only screen 
+  and (max-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .navigation {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        &-right {
+            display: none;
+        }
+        &-menu {
+            display: block;
+        }
+    }
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 608px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      .navigation {
+          width: 100%;
+          text-align: center;
+          padding: 0;
+          &-right {
+              display: none;
+          }
+          &-menu {
+              display: block;
+          }
+      }
+}
