@@ -1,4 +1,4 @@
 # Wireframe assignment for Raymon
-This is the responsive branch of my wireframe repo.
+This is the gulp branch of my wireframe repo.
 <br>
-I am using Gulp from now on.
+I setup Gulp for sass compiling and browsersyncing.

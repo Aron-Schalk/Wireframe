@@ -1,0 +1,24 @@
+{
+  "name": "wireframe-gulp",
+  "version": "1.0.0",
+  "description": "This is the master branch of my first GitHub repo.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aron-Schalk/Wireframe.git"
+  },
+  "author": "Aron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aron-Schalk/Wireframe/issues"
+  },
+  "homepage": "https://github.com/Aron-Schalk/Wireframe#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
