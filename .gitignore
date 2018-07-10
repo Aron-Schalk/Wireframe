@@ -1,6 +1,9 @@
+img
 css
 .sass-cache
 node_modules
+gulpfile.js
 Gruntfile.js
 package-lock.json
 package.json
+.DS_Store
