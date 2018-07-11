@@ -21,13 +21,75 @@
         &:nth-child(2) {
             height: 16em;
         }
-        &-text {
+        &-text, &-text--long {
             position: absolute;
             bottom: 2em;
             left: 2em;
-        }
-        .long-item {
-            bottom: 3em;
+            &--long {
+                bottom: 3em;
+            }
         }
     }
+}
+
+@media only screen 
+  and (max-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      .gallery {
+          padding: 1em 2em 2em;
+          &__list {
+            display: block;
+            position: inherit;
+            width: calc(100vw - 8em);
+          }
+          &__item {
+              width: auto;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 608px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      .gallery {
+          padding: 1em 2em 2em;
+          &__list {
+            display: block;
+            position: inherit;
+            width: calc(100vw - 8em);
+          }
+          &__item {
+              width: auto;
+          }
+      }
+}
+
+@media only screen 
+  and (min-width: 608px) 
+  and (max-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .gallery {
+        padding: 1em 2em 2em;
+        &__list {
+          display: block;
+          position: inherit;
+          width: calc(100vw - 16em);
+        }
+        &__item {
+            width: auto;
+        }
+    }
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      .gallery__list {
+          width: calc(100vw - 12em);
+      }
+      .gallery__item {
+          margin: .5em;
+      }
 }
